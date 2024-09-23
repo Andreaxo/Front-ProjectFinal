@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    display: grid;
+    text-align: center;
+    
+    margin: 0 auto;
+    width: 50%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .contenedor{
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 769px){
+    .contenedor{
+        background-color: rgb(168, 54, 98);
+    }
+}

@@ -1,0 +1,33 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+   
+  }
+  
+  .custom-input {
+    width: 250px; /* Ajusta este valor según tus necesidades */
+    max-width: 100%;
+    margin: 20px;
+}
+  
+  /* Eliminar box-shadow y otros estilos no deseados */
+  .no-box-shadow .ant-input {
+    box-shadow: none !important;
+    border: 1px solid #d9d9d9; /* Mantiene el borde */
+  }
+  
+  /* Eliminar el box-shadow al enfocar el input */
+  .no-box-shadow .ant-input:focus,
+  .no-box-shadow .ant-input-focused {
+    box-shadow: none !important;
+    border-color: #40a9ff; /* Mantiene el color del borde al enfocar */
+    outline: 0;
+  }
+  
+  /* Eliminar el box-shadow al pasar el mouse por encima */
+  .no-box-shadow .ant-input:hover {
+    border-color: #40a9ff;
+  }
